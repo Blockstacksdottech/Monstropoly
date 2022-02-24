@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --font-family-montserrat-sans-serif: 'Exo', sans-serif;
+    --font-family-base: var(--font-family-montserrat-sans-serif);
+    --font-size-base: 1rem;
+    --font-size-large: 3.125rem;
+    --font-size-md: 1.875rem; 
+    --font-size-small: 0.875rem;
+    --font-size-smaller: .75rem;
+    --font-size-xs: .575rem;
+    --font-size-smallest: .35rem;
+    --line-height-base: 1.25rem;
+    --line-height-medium: 1.5rem;
+}
+
+
+
+// Thin 100
+// Extra-light 200
+// Light 300
+// Regular 400
+// Medium 500
+// Semi-bold 600
+// Bold 700
+// Extra-bold 800
+// Black 900
+
+
+.fw-thin{
+    font-weight: 100;
+}
+.fw-light{
+    font-weight: 300;
+}
+.fw-regular{
+    font-weight: 400;
+}
+.fw-medium{
+    font-weight: 500;
+}
+.fw-semibold{
+    font-weight: 600;
+}
+.fw-bold{
+    font-weight: 700;
+}
+.fw-extrabold{
+    font-weight: 800;
+}
+.fw-black{
+    font-weight: 900;
+}
+
+
+.lh-18{
+    line-height: calc(var(--line-height-base) - 0.125rem);
+}
+
+.lh-20{
+    line-height: var(--line-height-base);
+}
+
+.lh-24{
+    line-height: calc(var(--line-height-base) + 0.25rem);
+}
+
+.lh-64{
+    line-height: 64px;
+}
+
+.fs-11{
+    font-size: calc(var(--font-size-base) - 0.3125rem);
+}
+
+.fs-12{
+    font-size: calc(var(--font-size-base) - 0.25rem);
+}
+
+.fs-13{
+    font-size: calc(var(--font-size-base) - 0.1875rem);
+}
+
+.fs-14{
+    font-size: calc(var(--font-size-base) - 0.125rem);
+}
+
+.fs-15{
+    font-size: calc(var(--font-size-base) - 0.0625rem);
+}
+
+.fs-16{
+    font-size: var(--font-size-base);
+}
+
+.fs-18{
+    font-size: calc(var(--font-size-base) + 0.125rem);
+}
+
+.fs-20{
+    font-size: calc(var(--font-size-base) + 0.25rem);
+}
+
+.fs-22{
+    font-size: calc(var(--font-size-base) + 0.375rem);
+}
+
+.fs-24{
+    font-size: calc(var(--font-size-md) - 0.375rem);
+}
+
+.fs-28{
+    font-size: calc(var(--font-size-md) - 0.125rem);
+}
+
+.fs-32{
+    font-size: calc(var(--font-size-md) + 0.125rem);
+}
+
+.fs-38{
+    font-size: calc(var(--font-size-large) - 0.75rem);
+}
+  
+
+@media (max-width: 575.98px) { 
+
+ }
+
+@media (max-width: 767.98px) { 
+
+    .fs-18{
+        font-size: var(--font-size-base);
+    }
+    
+    .fs-20{
+        font-size: calc(var(--font-size-base) + 0.125rem);
+    }
+    
+    .fs-22{
+        font-size: calc(var(--font-size-base) + 0.25rem);
+    }
+    
+    .fs-24{
+        font-size: calc(var(--font-size-base) + 0.375rem);
+    }
+    
+    .fs-28{
+        font-size: calc(var(--font-size-md) - 0.375rem);
+    }
+    
+    .fs-32{
+        font-size: calc(var(--font-size-md) - 0.125rem);
+    }
+    
+    .fs-38{
+        font-size: calc(var(--font-size-md) + 0.125rem);
+    }
+    
+ }
+
+@media (max-width: 991.98px) { 
+
+ }
+@media (max-width: 1199.98px) { 
+
+ }
+
+@media (max-width: 1399.98px) { 
+
+ }
